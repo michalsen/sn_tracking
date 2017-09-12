@@ -1,0 +1,14 @@
+{
+    "name": "emichalsen/sn_tracking",
+    "description": "SN Tracking Code for d8",
+    "type": "drupal-module",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Eric Michalsen",
+            "email": "eric.michalsen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
