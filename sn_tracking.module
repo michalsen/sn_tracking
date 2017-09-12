@@ -1,0 +1,29 @@
+<?php
+/**
+ *  @file
+ *  SN Tracking
+ */
+
+
+/**
+ *  Implements hook_form_alter()
+ */
+function sn_tracking_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+  // $set_pnt = \Drupal::state()->get('pnt_webforms');
+  // $pnt_webforms = json_decode($set_pnt);
+
+  //dpm($form);
+
+  // So, this is a bit sloppy :(
+  // basically trying to get the nid of the webform
+  // w/o having to grab it from the URL, just in case
+  // the webform was in a block, or panel
+  // $id_part = explode('-', $form['#id']);
+  // foreach ($id_part as $part) {
+  //   if (in_array($part, $pnt_webforms)) {
+  //     $form['#attributes']['class'][] = 'pnt';
+  //   }
+  // }
+
+}

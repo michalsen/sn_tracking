@@ -1,0 +1,5 @@
+name: SN Tracking
+type: module
+description: 'SN Tracking'
+core: 8.x
+package: SN Custom

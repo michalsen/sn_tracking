@@ -1,0 +1,7 @@
+sn_tracking.form:
+  path: '/admin/sn_tracking'
+  defaults:
+    _form: '\Drupal\sn_tracking\Form\SNTrackingForm'
+    _title: 'SN Tracking'
+  requirements:
+    _permission: 'admin content'
